@@ -149,3 +149,27 @@ purpose:Applies stash but keeps it saved.
 Screen shot:
 ![alt text](image-7.png)
 
+10. Reset & Undo Commands
+syntax:git reset --soft HEAD~1
+purpose: Undo last commit but keep changes staged.
+
+syntax:git reset --hard HEAD~1
+purpose:Completely remove last commit and changes.
+
+syntax:git revert <commit-id>
+purpose:Creates new commit that reverses previous commit.
+
+Screenshot:
+![alt text](image-8.png)
+
+11. Releasing Commands
+syntax:git tag
+purpose:Lists all tags.
+
+syntax:git tag v1.0
+purpose: Creates version tag.
+
+syntax:git push origin v1.0
+purpose:Pushes tag to GitHub.
+
+Screen shot:

@@ -149,6 +149,7 @@ purpose:Applies stash but keeps it saved.
 Screen shot:
 ![alt text](image-7.png)
 
+
 10. Reset & Undo Commands
 syntax:git reset --soft HEAD~1
 purpose: Undo last commit but keep changes staged.

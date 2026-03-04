@@ -174,3 +174,14 @@ syntax:git push origin v1.0
 purpose:Pushes tag to GitHub.
 
 Screen shot:
+![alt text](image-9.png)
+
+12. Cherry Pick & Patch
+
+syntax:git cherry-pick <commit-id>
+purpose: Applies specific commit from another branch.
+
+syntax:git apply <file.patch>
+purpose:Applies a patch file.
+
+screenshot:

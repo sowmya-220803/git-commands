@@ -184,4 +184,4 @@ purpose: Applies specific commit from another branch.
 syntax:git apply <file.patch>
 purpose:Applies a patch file.
 
-screenshot:
+screenshot

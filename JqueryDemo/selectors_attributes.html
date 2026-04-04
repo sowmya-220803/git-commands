@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Selectors & Attributes</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Selectors & Attributes</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="selectors_attributes.html">Selectors & Attributes</a>
+                <a href="events_style.html">Events & Style</a>
+                <a href="traversing_effects.html">Traversing & Effects</a>
+            </nav>
+        </header>
+
+        <section class="demo-section">
+            <h2>1. jQuery Selectors</h2>
+            <div id="target-id" class="target-class">Target Element (ID & Class)</div>
+            <p>A paragraph</p>
+            <span>A span</span>
+            
+            <div class="parent" style="border: 1px solid #ccc; padding: 10px;">
+                <p>Child P</p>
+                <span>Direct Child Span</span>
+            </div>
+            
+            <div class="prev">Previous</div>
+            <div class="next">Next (Adjacent)</div>
+            <div class="sib">Sibling 1</div>
+            <div class="sib">Sibling 2</div>
+
+            <ul>
+                <li>First Item</li>
+                <li class="exclude">Excluded Item</li>
+                <li>Third Item</li>
+                <li>Fourth Item</li>
+            </ul>
+
+            <a href="https://google.com" data-type="link">Google Link</a>
+            <a href="files/sample.pdf" data-type="alert">PDF Link</a>
+
+            <div style="margin-top: 10px;">
+                <button id="btn-basic">Test Basic</button>
+                <button id="btn-hier">Test Hierarchy</button>
+                <button id="btn-filter">Test Filters</button>
+                <button id="btn-attr">Test Attributes</button>
+            </div>
+        </section>
+
+        <section class="demo-section">
+            <h2>2. Attribute Methods</h2>
+            <img id="demo-img" src="https://via.placeholder.com/150/FF0000" alt="Demo">
+            <br>
+            <input type="checkbox" id="my-check"> <label>Enable/Disable Checkbox</label>
+            <br>
+            <input type="text" id="my-input" placeholder="Type something...">
+            <div style="margin-top: 10px;">
+                <button id="change-img">Change Img</button>
+                <button id="remove-attr">Remove Attr</button>
+                <button id="toggle-check">Toggle Check</button>
+                <button id="get-val">Get Val</button>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Events & Style</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Events & Style Manipulation</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="selectors_attributes.html">Selectors & Attributes</a>
+                <a href="events_style.html">Events & Style</a>
+                <a href="traversing_effects.html">Traversing & Effects</a>
+            </nav>
+        </header>
+
+        <section class="demo-section">
+            <h2>3. Event Handling</h2>
+            <button id="click-me">Click()</button>
+            <button id="dbl-click">DblClick()</button>
+            <div id="hover-me" style="border: 1px solid #ccc; padding: 10px; margin: 5px;">Hover Me</div>
+            
+            <input type="text" id="key-input" placeholder="Interact here...">
+            <p id="key-log">Key: None</p>
+
+            <form id="my-form">
+                <input type="text" placeholder="Form input" required>
+                <button type="submit">Submit</button>
+            </form>
+
+            <select id="select-demo">
+                <option value="A">Option A</option>
+                <option value="B">Option B</option>
+            </select>
+
+            <div id="on-off-demo" style="background:#eee; padding:10px;">Hover for ON</div>
+            <button id="stop-event">Turn Off Hover</button>
+        </section>
+
+        <section class="demo-section">
+            <h2>4. Style Manipulation</h2>
+            <div id="style-box" class="demo-box">Box</div>
+            <button id="btn-css">Change CSS</button>
+            <button id="btn-add">Add Class</button>
+            <button id="btn-rem">Remove Class</button>
+            <button id="btn-tog">Toggle Class</button>
+            <button id="btn-has">Has Class?</button>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
